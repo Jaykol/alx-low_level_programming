@@ -1,5 +1,6 @@
 #include <stdio.h>
      /**
+      * main - main block of code
       * program to print a text
       * returns 0
       */
