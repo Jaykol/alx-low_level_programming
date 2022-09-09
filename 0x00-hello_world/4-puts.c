@@ -1,5 +1,6 @@
 #include <stdio.h>
-     /* main function is where code block sites
+     /**
+      * main function is where code block sites
       *
       * returns (0)
       */
