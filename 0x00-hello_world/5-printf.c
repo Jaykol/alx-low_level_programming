@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry code block
- * return: 0
+ * Return: 0
  *code block showing printf usage
  */
 
