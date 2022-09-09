@@ -3,7 +3,7 @@
 /**
 * main - main block of code
 *
-* Returns: 0
+* Return: 0
 */
 int main(void)
 {
