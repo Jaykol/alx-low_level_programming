@@ -3,12 +3,14 @@
 int main(void)
 {
 	char c = 'a';
+	
+	while (c !='e' && c != 'q' && c <= 'z')
+	{	
+		putchar(c);
 
-	for(c; c <= 'z'; c++)
-	{
-		if (c !='e' && c != 'q')
-			putchar(c);
+		c++;
 	}
 	putchar('\n');
+
 	return (0);
 }
