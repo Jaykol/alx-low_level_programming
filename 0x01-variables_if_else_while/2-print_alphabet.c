@@ -10,6 +10,6 @@ int main(void)
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		putchar(x)"\n";
+		putchar(x, "\n");
 	}
 }
