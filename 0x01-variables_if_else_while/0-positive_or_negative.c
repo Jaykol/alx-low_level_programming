@@ -2,6 +2,10 @@
 #include <time.h>
 /* more headers goes there */
 
+/**
+ * main -main code block
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
