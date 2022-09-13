@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i = o;
+	int i = 0;
 
 	while (i < 10;)
 	{
