@@ -1,11 +1,16 @@
 #include <stdio.h>
 
+/**
+ * main- main code block
+ * return: 0
+ */
 int main(void)
 {
 	char c = 'a';
 	
-	while (c !='e' && c != 'q' && c <= 'z')
+	while (c <= 'z')
 	{	
+		if  (c != 'e' && c != 'q')
 		putchar(c);
 
 		c++;
