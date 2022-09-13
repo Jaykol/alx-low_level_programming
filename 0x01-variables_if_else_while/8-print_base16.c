@@ -1,0 +1,22 @@
+#include <stdio.h>
+/**
+ * main - main code block
+ * Return: 0
+ */
+int main(void)
+{
+	int i;
+	char c;
+
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i);
+	}
+	for (c = 'a'; c < 'g'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+
+	return (0);
+}
