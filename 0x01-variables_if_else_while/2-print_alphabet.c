@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * return: 0
+ * Return: 0
  */
 
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		putchar(x);
+		putchar("%s\n", x);
 	}
 	return (0);
 }
