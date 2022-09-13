@@ -4,7 +4,7 @@
 /* more headers goes there */
 /**
  * main - main code block
- * returns: 0
+ * Returns: 0
  */
 /* betty style doc for function main goes there */
 int main(void)
