@@ -1,4 +1,4 @@
-# "main.h"
+#include "main.h"
 
 /**
  * main - print alphabets in lowercase 10x
