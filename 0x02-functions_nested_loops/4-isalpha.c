@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int _ialpha(int c)
+int _isalpha(int c)
 {
         char i = 'a';
 
