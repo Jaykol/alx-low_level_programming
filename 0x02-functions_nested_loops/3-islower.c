@@ -9,11 +9,11 @@
 
 int _islower(int c)
 {
-	char c = 'a';
+	c = 'a';
 
 	while (c <= 'z')
 	{
-		if(islower(int c))
+		if(islower(c))
 		{
 			return (1);
 		}
