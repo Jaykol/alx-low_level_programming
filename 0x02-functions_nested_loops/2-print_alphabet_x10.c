@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void print_alphabet_x10(void) - print alphabets in lowercase 10x
+ * print_alphabet_x10 - print alphabets in lowercase 10x
  *
  * Return: Always 0
  */
@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	while (i < 10)
 	{
 		c = 'a';
-		while(c <= 'z')
+		while (c <= 'z')
 		{
 			_putchar(c);
 			c++;
