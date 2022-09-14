@@ -3,8 +3,8 @@
 
 /**
  *  _isalpha - checks if a character is lower case
- * Return: 1
- * Return: 0
+ * Return: 1 or 0
+ * @c - type int
  */
 
 int _isalpha(int c)
