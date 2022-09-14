@@ -1,5 +1,6 @@
 #include "main.h"
-/**
+#include <stdio.h>
+/*
  * main - main code block
  * Description - code to print _putchar.c
  * Return: 0
