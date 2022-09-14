@@ -9,7 +9,7 @@
 
 int _islower(int c)
 {
-	int i = 'a';
+	char i = 'a';
 
 	while (i <= 'z')
 	{
