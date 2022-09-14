@@ -9,11 +9,11 @@
 
 int _islower(int c)
 {
-	c = 'a';
+	i = 'a';
 
-	while (c <= 'z')
+	while (i <= 'z')
 	{
-		if(islower(c))
+		if(i == c)
 		{
 			return (1);
 		}
@@ -21,7 +21,7 @@ int _islower(int c)
 		{
 			return (0);
 		}
-		c++;
+		i++;
 	}
 	return (0);
 }
