@@ -9,20 +9,25 @@
 
 int _isalpha(int c)
 {
-        char i = 'a';
+        char ilower = 'a';
+	char iupper = 'A';
 
-        while (i <= 'z')
+        while (ilower <= 'z')
         {
-                if(i == c)
-                {
-                        return (1);
-                }
-                else
-                {
-                        return (0);
-                }
-                i++;
-        }
+               	while (iupper <= 'Z')
+		{
+			if(ilower == c || iupper == c)
+                	{
+                        	return (1);
+			}
+			else
+			{
+				return (0);
+			}
+			iupper++;
+		}
+		ilower++
+	}
         return (0);
 }
 
