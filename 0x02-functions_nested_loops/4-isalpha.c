@@ -26,7 +26,7 @@ int _isalpha(int c)
 			}
 			iupper++;
 		}
-		ilower++
+		ilower++;
 	}
         return (0);
 }
