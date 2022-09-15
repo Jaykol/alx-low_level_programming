@@ -3,12 +3,12 @@
  * add - adds two integers
  * Return: int value
  */
-int add(int x, int y)
+int add(int a, int b)
 {
-	int z;
+	int c;
 
-	z = x + y;
-	_putchar(z);
+	c = a + b;
+	_putchar(c + '0');
 
-	return (0);
+	return (c);
 }
