@@ -2,14 +2,12 @@
 #include <ctype.h>
 #include <stdio.h>
 /**
+ * _isupper - function that checks for uppercase characters
  *
- *  * _isupper - function that checks for uppercase characters
+ * @c: int type number
  *
- *   * @c: int type number
- *
- *    * Return: 1 if uppercase, else 0
- *
- *     */
+ * Return: 1 if uppercase, else 0
+ */
 
 int _isupper(int c)
 {

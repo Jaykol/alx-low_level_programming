@@ -14,15 +14,10 @@
 int _isdigit(int c)
 
 {
-	int i = 0;
-
-	for (; i <= 9; i++)
+	if (isdigit(c))
 	{
-		if (i == c)
-		{
-			return (1);
-		}
-		else
-			return (0);
+		return (1);
 	}
+	else
+		return (0);
 }
