@@ -1,30 +1,30 @@
 #include "main.h"
 #include <ctype.h>
 
-
 /**
  *
- *  * _isdigit - Check for digits (0 through 9)
+ *  * _isdigit - A function that checks for a digit (0 through 9).
  *
- *   * @c: int type param
+ *   * @c: An input integer
  *
- *    * Return: 1 if digit, else 0
+ *    * Return: 1 if c is a digit or 0 otherwise
  *
  *     */
 
-int _isupper(int c)
+int _isdigit(int c)
 
 {
-	char uppercase = 'A';
-	int isupper = 0;
+	char i = '0';
+	int isdigit = 0;
 
-	for (; uppercase <= 'Z'; uppercase++)
+	for (; i <= '9'; i++)
 	{
-		if (c == uppercase)
+		if (i == c)
 		{
-			isupper = 1;
+			isdigit = 1;
 			break;
 		}
 	}
-	return (isupper);
+	return (isdigit);
+
 }
