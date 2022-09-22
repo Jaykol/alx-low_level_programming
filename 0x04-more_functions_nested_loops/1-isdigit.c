@@ -20,6 +20,9 @@ int _isdigit(int c)
 	for (x = 0; x <= 9; x++)
 	{
 		if (c == x)
+		{
 			return (1);
+		}
+	}
 		return (0);
 }
