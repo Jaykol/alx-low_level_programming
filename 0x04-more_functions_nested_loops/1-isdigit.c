@@ -12,17 +12,19 @@
  *
  *     */
 
-int _isdigit(int c)
+int _isupper(int c)
 
 {
-	int x;
+	char uppercase = 'A';
+	int isupper = 0;
 
-	for (x = 0; x <= 9; x++)
+	for (; uppercase <= 'Z'; uppercase++)
 	{
-		if (c == x)
+		if (c == uppercase)
 		{
-			return (1);
+			isupper = 1;
+			break;
 		}
 	}
-		return (0);
+	return (isupper);
 }
