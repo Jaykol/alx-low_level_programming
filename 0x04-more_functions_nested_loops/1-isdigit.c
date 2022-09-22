@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <ctype.h>
 
 
 /**
@@ -15,13 +15,11 @@
 int _isdigit(int c)
 
 {
+	int x;
 
-		if (c > 47 && c < 58)
-
-					return (1);
-
-
-
-			return (0);
-
+	for (x = 0; x <= 9; x++)
+	{
+		if (c == x)
+			return (1);
+		return (0);
 }
