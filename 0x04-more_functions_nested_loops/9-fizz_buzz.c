@@ -24,11 +24,12 @@ int main(void)
 		else if (i % 5 = 0)
 			printf("Buzz");
 		else
-			printf("%d", i)
-				if (i != 100)
-					printf(" ");
+			printf("%d", i);
+		if (i != 100)
+			printf(" ");
 		i++;
 	}
 	printf("\n");
+
 	return (0);
 }
