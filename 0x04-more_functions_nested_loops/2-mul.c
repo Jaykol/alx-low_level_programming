@@ -3,16 +3,13 @@
 
 
 /**
+ * mul - multiply 2 integers
  *
- *  * mul - multiply 2 integers
+ * @a: int type number
+ * @b: int type number
  *
- *   * @a: int type number
- *
- *    * @b: int type number
- *
- *     * Return: result of multiplication
- *
- *      */
+ * Return: result of multiplication
+ */
 
 int mul(int a, int b)
 
