@@ -12,7 +12,7 @@
 
 int _isupper(int c)
 {
-		if (isupper(c))
+		if (c == 67)
 		{
 			return (1);
 		}
