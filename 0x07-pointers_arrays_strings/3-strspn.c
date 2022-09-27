@@ -3,9 +3,9 @@
 
 /**
  * unsigned int _strspn - a function that gets the length of a prefix substring
- * @s:
- * @accept:
- * Return: 
+ * @s: string to be scanned
+ * @accept: string to be matched
+ * Return: returns number of bytes in initial segment of s
  */
 unsigned int _strspn(char *s, char *accept)
 {
