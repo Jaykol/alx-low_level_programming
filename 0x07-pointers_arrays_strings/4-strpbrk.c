@@ -5,8 +5,8 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int s = strpbrk(s, accept);
-	if(s != NULL)
+	int len = strpbrk(s, accept);
+	if(len != NULL)
 		return (s);
 	else
 		return (0);
