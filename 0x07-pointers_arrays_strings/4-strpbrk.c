@@ -5,9 +5,11 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int len = strpbrk(s, accept);
-	if(len != NULL)
-		return (s);
+	char *c;
+
+	c = strpbrk(s, accept);
+	if(c != NULL)
+		return (*c);
 	else
 		return (0);
 }
