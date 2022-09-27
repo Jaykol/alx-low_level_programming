@@ -8,9 +8,9 @@
 
 char *_strchr(char *s, char c)
 {
-	strchr(s, c);
-	if (c == 0)
-		return NULL;
-	else
+	s = strchr(s, c);
+	if (s != 0)
 		return (s);
+	else
+		return (0);
 }
