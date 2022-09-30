@@ -3,23 +3,23 @@
 #include <stdlib.h>
 
 /**
- *
- *
+ * main - multiply 2 numbers passed to main, or Error
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 1 if error, 0 if function runs correctly
  */
+
 int main(int argc, char *argv[])
 {
-	int i;
-	int mul;
+	(void) argc;
 
-	if(argc > 1)
+	if (argv[1] && argv[2])
 	{
-		for (i = 1, i < argc; i++)
-		{
-			mul *= atoi(argv[i]);
-		}
-		printf("Answer = %d\n", mul);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+		return (0);
 	}
-	else if(argc == 1)
+	else
 		printf("Error\n");
-		return (1);
+
+	return (1);
 }
