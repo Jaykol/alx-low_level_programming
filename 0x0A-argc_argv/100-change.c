@@ -13,7 +13,7 @@
  */
 int main(int argc, char **argv)
 {
-	int amount, coins = 0;
+	int amount, cents = 0;
 
 	if (argc == 2)
 	{
@@ -25,27 +25,27 @@ int main(int argc, char **argv)
 		}
 		if (amount % 25 >= 0)
 		{
-			coins += amount / 25;
+			cents += amount / 25;
 			amount = amount % 25;
 		}
 		if (amount % 10 >= 0)
 		{
-			coins += amount / 10;
+			cents += amount / 10;
 			amount = amount % 10;
 		}
 		if (amount % 5 >= 0)
 		{
-			coins += amount / 5;
+			cents += amount / 5;
 			amount = amount % 5;
 		}
 		if (amount % 2 >= 0)
 		{
-			coins += amount / 2;
+			cents += amount / 2;
 			amount = amount % 2;
 		}
 		if (amount % 1 >= 0)
-			coins += amount;
-		printf("%d\n", coins);
+			cents += amount;
+		printf("%d\n", cents);
 		return (0);
 	}
 	else
