@@ -1,15 +1,17 @@
 #include "main.h"
+
 /**
  * read_textfile - Reads a textfile and prints to POSIX stdout
  * @filename: name of files char string
  * @letters: number of letters tobe read and printed
- *Return: 0 if error and number of letters
+ * Return: 0 if error and number of letters
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
 	char *buffer;
+	ssize_t r_count, w_count;
 
 	if (filename == NULL)
 	{
