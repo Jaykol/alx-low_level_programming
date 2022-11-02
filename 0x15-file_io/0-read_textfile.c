@@ -1,5 +1,14 @@
 #include "main.h"
 
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <sys/uio.h>
+#include <stdlib.h>
+
+
 /**
  * read_textfile - Reads a textfile and prints to POSIX stdout
  * @filename: name of files char string
